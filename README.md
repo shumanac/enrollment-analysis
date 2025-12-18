@@ -64,6 +64,7 @@ The solution follows a reproducible data pipeline:
 
 Each stage produces a clear artifact that feeds the next.
 
+```text
 Project Structure
 enrollment-analysis/
 ├── data/
