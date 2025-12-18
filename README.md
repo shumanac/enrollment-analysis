@@ -64,8 +64,9 @@ The solution follows a reproducible data pipeline:
 
 Each stage produces a clear artifact that feeds the next.
 
+### Project Structure
 ```text
-Project Structure
+
 enrollment-analysis/
 ├── data/
 │   ├── raw_enrollment.csv
@@ -81,6 +82,7 @@ enrollment-analysis/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```text
 
 ## Implementation Details 
 
