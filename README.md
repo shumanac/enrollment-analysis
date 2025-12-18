@@ -82,7 +82,7 @@ enrollment-analysis/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```text
+```
 
 ## Implementation Details 
 
