@@ -107,27 +107,6 @@ def main():
     print("\nSample cleaned data:")
     print(df_clean.head())
 
-# def main():
-#     data_dir = Path("data")
-#     input_file = data_dir / "raw_enrollment.csv"
-
-#     if not input_file.exists():
-#         raise FileNotFoundError(
-#             f"CSV file not found at {input_file}"
-#         )
-
-#     df_raw = load_raw_data(input_file)
-#     df_clean = clean_enrollment_data(df_raw)
-
-#     output_file = data_dir / "clean_enrollment.csv"
-#     df_clean.to_csv(output_file, index=False)
-
-#     print(f"Cleaned data written to {output_file}")
-
-#     print("Raw rows:", len(df_raw))
-#     print("Clean rows:", len(df_clean))
-#     print("\nSample cleaned data:")
-#     print(df_clean.head())
 
 
 if __name__ == "__main__":

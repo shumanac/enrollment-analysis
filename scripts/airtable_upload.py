@@ -20,13 +20,6 @@ HEADERS = {
 }
 
 
-# def upload_records(table_name: str, records: list):
-#     url = f"https://api.airtable.com/v0/{BASE_ID}/{table_name}"
-#     payload = {"records": records}
-#     response = requests.post(url, headers=HEADERS, json=payload)
-#     response.raise_for_status()
-
-
 def upload_records(table_name: str, records: list):
     url = f"https://api.airtable.com/v0/{BASE_ID}/{table_name}"
     payload = {"records": records}

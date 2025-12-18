@@ -3,10 +3,10 @@
 
 ## Overview 
 
-This project delivers an end-to-end solution for cleaning, analyzing, visualizing, and operationalizing enrollment data.
+This project delivers an end-to-end solution for cleaning, analyzing, and visualizing enrollment data.
 The goal is to help stakeholders understand program impact and engagement trends at a city level, while making the results accessible to non-technical users.
 
-## The solution combines 
+### The solution combines 
 
 Python→ data transformation, analysis, visualization
 
@@ -14,7 +14,7 @@ Airtable→ collaborative system of record for review
 
 ### Problem Statement: 
 
-- The raw enrollment dataset presented several challenges:
+  The raw enrollment dataset presented several challenges:
 
 - Compound, delimiter-separated values within single columns
 
@@ -135,35 +135,30 @@ enrollment-analysis/
 
 ### Setup Instructions 
 
-1 Create a virtual environment
+- Create a virtual environment
 python -m venv venv
 source venv/bin/activate
 
-2 Install dependencies
+- Install dependencies
 pip install -r requirements.txt
 
-3️ Configure environment variables
+- Configure environment variables
 
-Create a .env file in the project root:
+- Create a .env file in the project root:
 
-AIRTABLE_TOKEN=your_airtable_token
-AIRTABLE_BASE_ID=your_base_id
+    AIRTABLE_TOKEN=your_airtable_token
+    AIRTABLE_BASE_ID=your_base_id
 
-
-.env is excluded from version control.
-
-Running the Project
-Clean the data
-python scripts/clean_data.py
-
-Analyze engagement
-python scripts/analyze_engagement.py
-
-Generate visualizations
-python scripts/visualize_metrics.py
-
-Upload results to Airtable
-python scripts/airtable_upload.py
+- .env is excluded from version control.
+- Running the Project
+- Clean the data
+- python scripts/clean_data.py
+- Analyze engagement
+- python scripts/analyze_engagement.py
+- Generate visualizations
+- python scripts/visualize_metrics.py
+- Upload results to Airtable
+- python scripts/airtable_upload.py
 
 
 ## Visual Insights 
@@ -171,16 +166,16 @@ python scripts/airtable_upload.py
 
 ### Total Enrollments by City
 
-This chart highlights program impact by city, showing where enrollments were highest.
+- This chart highlights program impact by city, showing where enrollments were highest.
 Cities such as Baltimore, MD and San Francisco, CA demonstrate higher participation, indicating stronger reach and adoption in those regions.
 
-This visualization helps stakeholders quickly identify:
+- This visualization helps stakeholders quickly identify:
 
-High-impact cities
+    - High-impact cities
 
-Regions with concentrated engagement
+    - Regions with concentrated engagement
 
-Potential areas for expansion or deeper investment
+    - Potential areas for expansion or deeper investment
 
 ![Alt text](visuals/enrollment_trends.png)
 
