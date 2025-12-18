@@ -136,11 +136,11 @@ enrollment-analysis/
 ### Setup Instructions 
 
 - Create a virtual environment
-python -m venv venv
-source venv/bin/activate
+   - python -m venv venv
+   - source venv/bin/activate
 
 - Install dependencies
-pip install -r requirements.txt
+    - pip install -r requirements.txt
 
 - Configure environment variables
 
